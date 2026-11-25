@@ -1,0 +1,56 @@
+
+# ==========================================
+# RETAIL DEMAND FORECASTING
+# Ignore datasets and temporary files ONLY
+# ==========================================
+
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter temporary checkpoints
+.ipynb_checkpoints/
+
+# Dataset directories
+data/raw/
+data/processed/
+datasets/raw/
+datasets/processed/
+
+# Dataset files
+*.csv
+*.parquet
+*.feather
+*.arrow
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE temporary settings
+.idea/
+.vscode/
+
+# ==========================================
+# KEEP EVERYTHING ELSE
+# Notebooks (.ipynb)
+# Models (.pkl, .joblib, .model)
+# Graphs (.png, .jpg, .svg)
+# Reports (.md, .pdf, .docx)
+# Results
+# Python scripts
+# Jupyter configuration
+# README and requirements
+# ==========================================
